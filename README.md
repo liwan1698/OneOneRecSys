@@ -1,9 +1,22 @@
 ### 中文|[English](./README_EN.md)
 # OneOneRecSys
-This is a Recommendation System, which aims to contain most of the recommended scenarios, including short video recommending, movie recommending, news recommending.
 这是一个推荐系统项目。项目的目标是包含常见推荐场景，包括短视频推荐、电影推荐和新闻推荐。当前正在开发短视频推荐。
 # 系统架构
+**系统架构**
+![](resource/img/推荐系统架构.jpg)
 
+**业务架构**
+![](resource/img/推荐系统业务架构.jpg)
+# 功能说明
+**用户特征**
+包括
 # 讨论
+如果对本项目有兴趣或建议，请发送邮件到lingleeabd@126.com
 # TODO
-# 更新日志
+* app界面
+* springboot接口
+# Q&A
+* *如果获取用户个人信息？*<br>
+app使用vue编写，不能获取用户的地理位置、年龄、性别等个人信息，所以随机生成用户的这些信息。
+* *如何获取短视频？*<br>
+通过爬虫爬取部分短视频作为系统的视频库。
